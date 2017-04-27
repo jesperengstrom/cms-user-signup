@@ -25,12 +25,6 @@ class User {
         $this->pdo = $pdo;
     }
 
-    public function check_availability(){
-        $check = $this->pdo->prepare("SELECT COUNT(*) FROM users WHERE username='jesper'");
-        $check->execute();
-        return $check->fetchAll();
-    }
-
     public function store_user(){
             return $this->pdo->prepare("INSERT INTO users 
                 (
