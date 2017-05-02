@@ -11,7 +11,7 @@ $options = [
 $pdo = new PDO(
     "mysql:host=johnny.heliohost.org;dbname=phpgrupp_cms;charset=utf8",
     "phpgrupp",
-    $password, 
+    $db_pass, 
     $options
     );
 

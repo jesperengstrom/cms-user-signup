@@ -1,3 +1,7 @@
+<?php
+require "../partials/header.php";
+?>
+
 <section class="container mt-5">
     <div class="row">
         <div class="col-sm-6">
@@ -19,7 +23,17 @@
     </div>
     <div class="row">
         <div class="col-sm-12">
+        <p>
             <a href="pages/register.php">Register account</a>
+        </p>
+        <p>
+            <a href="pages/new_post.php">New post</a>
+        </p>
+
         </div>
     </div>
 </section>
+
+<?php
+require "../partials/footer.php";
+?>
